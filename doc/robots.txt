@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://wwchannel.github.io/sitemap.xml
