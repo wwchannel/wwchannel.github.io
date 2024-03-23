@@ -7,6 +7,17 @@
 .post .post-header {
   text-align: left;
 }
+.posts .post-header {
+  margin-top: 0;
+}
+.posts .post .post-meta {
+  margin: 1em 0 0;
+}
+@font-face {
+  font-family: "MiSans";
+  font-weight: 400;
+  src: url("../font/MiSans/MiSans_VF.ttf");
+}
 
 
 /* douban item post-preview --------*/

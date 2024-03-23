@@ -9,7 +9,7 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
+  'Default': #345ea2 #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
@@ -55,10 +55,10 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.8 !default;
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'MiSans';//'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'MiSans';//Athelas, STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -79,7 +79,7 @@ $global-headings: (
 $logo-font-size: 36px !default;
 
 // Font family of the logo.
-$logo-font-family: cursive, LiSu, sans-serif !default;
+$logo-font-family: 'MiSans'; // cursive, LiSu, sans-serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
@@ -177,8 +177,7 @@ $code-color: #c7254e !default;
 $code-font-size: 0.9em !default;
 
 // Font family of the code.
-$code-font-family: Menlo, Consolas, "Source Code Pro", Inconsolata, Monaco, "Courier New",
- monospace !default;
+$code-font-family:  'MiSans'; // Menlo, Consolas, "Source Code Pro", Inconsolata, Monaco, "Courier New",monospace !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (

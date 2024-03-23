@@ -34,6 +34,24 @@
     </div>
   {{ end }}
 
+  <div class="post-meta-author">
+    by
+    {{- $author_id := .Site.Params.author.name | default .Site.Author.name -}}
+    {{- $author := (index ($.Site.Data.authors | default dict) $author_id) -}}
+    {{- $author_lang := (index ($author | default dict) .Site.Language.Lang) -}}
+    {{- $author_name := $author_lang.name.display | default $author.name.display | default $author_id -}}
+    {{- $author_url := $author_lang.url | default $author.url | default .Site.Params.author.url | default .Site.Author.url -}}
+    {{ if $author_url }}
+      <a href="{{ $author_url | relLangURL | safeURL }}">
+        <span class="post-meta-author-name">
+          {{ $author_name | safeHTML }}
+        </span>
+      </a>
+    {{ else }}
+      {{ $author_name | safeHTML }}
+    {{ end }}
+  </div>
+
 
   <!-- <div class="post-meta__right">
     {{ if .Site.Params.moreMeta -}}

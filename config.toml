@@ -3,7 +3,7 @@
 # And see https://gohugo.io/getting-started/configuration/ .
 
 baseURL = "https://wwchannel.github.io/"
-title = "晚晚"
+title = "群青色遗梦"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -52,13 +52,13 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
-  author.name = "晚晚"      # essential                     # 必需
+  author.name = "Eureka"      # essential                     # 必需
   author.email = "wwchenwan@gmail.com" # optional, for RSS             # 可选
   author.url = "/about"        # optional                      # 可选
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "晚晚"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["晚晚", "博客"]
+  logoTitle = "群青色遗梦"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["群青色遗梦", "博客"]
   description = "Hugo theme wwchenwan example site."
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
