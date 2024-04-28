@@ -37,7 +37,7 @@
 
           <!-- Post Pagination -->
           <nav class="post-nav">
-            {{ with .NextInSection }}
+            {{ with .PrevInSection }}
               <a class="prev" href="{{ .RelPermalink }}">
                 {{/* icon left */}}
                 <i class="iconfont">
@@ -47,7 +47,7 @@
                 <span class="prev-text nav-mobile">{{ i18n "prev_post" }}</span>
               </a>
             {{- end }}
-            {{ with .PrevInSection }}
+            {{ with .NextInSection }}
               <a class="next" href="{{ .RelPermalink }}">
                 <span class="next-text nav-default">{{ .Title }}</span>
                 <span class="prev-text nav-mobile">{{ i18n "next_post" }}</span>
